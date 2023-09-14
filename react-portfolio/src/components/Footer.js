@@ -1,5 +1,4 @@
 import React from 'react';
-const NAME = 'Joshua Hebert';
 // Create Footer component
 const Footer = () => {
     return (
@@ -32,7 +31,7 @@ const Footer = () => {
                 <div className="footer-copyright-container">
                     <div className="footer-copyright-text">
                         <p>
-                            Copyright &copy; 2021 <NAME></NAME>
+                            Copyright &copy; 2021 
                             <br />
                             All rights reserved
                             <br />

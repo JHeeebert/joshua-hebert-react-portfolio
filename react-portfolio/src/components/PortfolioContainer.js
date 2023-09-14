@@ -1,6 +1,6 @@
 // Import React components
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from'react-router-dom';
 // Import main components
 import Header from './Header';
 import Footer from './Footer';
@@ -16,17 +16,10 @@ import Resume from './views/Resume';
 const PortfolioContainer = () => {
     return (
         <Router>
-            <div className="portfolioContainer">
+            < div className="portfolioContainer">
                 <Header />
                 <NavBar />
-                <Switch>
-                    <Route path="/about" component={About} />
-                    <Route path="/contact" component={Contact} />
-                    <Route path="/portfolio" component={Portfolio} />
-                    <Route path="/projects" component={Projects} />
-                    <Route path="/resume" component={Resume} />
-                    <Route path="/" component={Home} />
-                </Switch>
+
                 <Footer />
             </div>
         </Router>
