@@ -4,6 +4,7 @@ import Header from "../src/components/Header/Header.js";
 // import Portfolio from "../src/components/Portfolio/Portfolio.js";
 // import Contact from "../src/components/Contact/Contact.js";
 // import Resume from "../src/components/Resume/Resume.js";
+import Footer from "../src/components/Footer/Footer.js";
 
 const App = () => {
   const [selectedSection, setSelectedSection] = useState("About Me");
@@ -22,6 +23,8 @@ const App = () => {
       {selectedSection === "Portfolio" && <Portfolio />}
       {selectedSection === "Contact" && <Contact />}
       {selectedSection === "Resume" && <Resume />} */}
+       <Footer />
+
     </div>
   );
 };
