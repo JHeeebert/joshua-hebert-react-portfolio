@@ -9,9 +9,9 @@ const AboutMe = () => {
             <h2>About Me</h2>
             <p>
                 Hey there! I'm Joshua Hebert, a dedicated Full Stack Web Developer
-                hailing from the vibrant east coast of the United States. My tech
-                toolkit includes React.js, Express.js, Node.js, and MongoDB, allowing me
-                to craft exceptional digital experiences.
+                hailing from the Queen city, Charlotte North Carolina. My tech
+                toolkit includes React.js, Express.js, Node.js, MySQL, GraphQL and MongoDB, allowing me
+                to craft seamless digital experiences.
             </p>
             <p>
                 From a young age, I've been fascinated by the art of coding and its
