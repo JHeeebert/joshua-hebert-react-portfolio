@@ -57,11 +57,11 @@ section div {
   margin-bottom: 20px;
 }
 
-section img {
+/* section img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-}
+  border-radius: 100%;
+} */
 
 section form {
   display: flex;
@@ -252,6 +252,7 @@ section.about-me .interests ul {
 section.about-me .interests ul li {
   margin-bottom: 5px;
 }
+
 .logo {
   width: 50px;
   height: 50px;
@@ -259,4 +260,54 @@ section.about-me .interests ul li {
   margin-bottom: 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+section.portfolio h2 {
+  color: #1882c9;
+  font-weight: bold;
+}
+
+section.portfolio h3 {
+  color: #24bae0;
+}
+
+section.portfolio .app-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #054657;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+section.portfolio img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 750px;
+  margin-bottom: 10px;
+  }
+
+section.portfolio .app-card h3 {
+  margin-bottom: 5px;
+}
+
+section.portfolio a {
+  display: block;
+  margin-bottom: 5px;
+  color: #fbfbfb;
+  text-decoration: none;
+}
+
+section.portfolio a:hover {
+  text-decoration: underline;
+  color: #b30c0c;
 }
