@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../../assets/logo.jpg';
 // Create Footer component
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-logo">
-                    <img src="../../src/assets/images/logo.png" alt="Joshua Hebert Logo" />
+                <img className="logo" src={logo} alt="logo" />
                                     </div>
             </div>
             <div className="footer-copyright">
