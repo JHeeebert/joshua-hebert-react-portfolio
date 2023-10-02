@@ -22,7 +22,6 @@ const App = () => {
       {selectedSection === "About Me" && <About />}
       {selectedSection === "Contact" && <Contact />}
       {selectedSection === "Portfolio" && <Portfolio />}
-      {selectedSection === "Contact" && <Contact />}
       {/* {selectedSection === "Resume" && <Resume />} */}  
        <Footer />
 
