@@ -1,6 +1,6 @@
 import React from "react";
 import carBidz from "../../assets/carBidzPortfolioPhoto.png";
-import mixMuse from "../../assets/mixMusePortfolioPhoto.jpeg";
+import mixMuse from "../../assets/mixMusePortfolioPhoto.png";
 import weatherApp from "../../assets/weatherAppPortfolioPhoto.png";
 import socialMediaApi from "../../assets/socialMediaApiPortfolioPhoto.png";
 import marvelFlicks from "../../assets/marvelFlicksPortfolioPhoto.png";

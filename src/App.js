@@ -3,7 +3,7 @@ import Header from "../src/components/Header/Header.js";
 import About from "../src/components/About/About.js";
 import Portfolio from "../src/components/Portfolio/Portfolio.js";
 import Contact from "../src/components/Contact/Contact.js";
-// import Resume from "../src/components/Resume/Resume.js";
+import Resume from "../src/components/Resume/Resume.js";
 import Footer from "../src/components/Footer/Footer.js";
 
 const App = () => {
@@ -22,8 +22,8 @@ const App = () => {
       {selectedSection === "About Me" && <About />}
       {selectedSection === "Contact" && <Contact />}
       {selectedSection === "Portfolio" && <Portfolio />}
-      {/* {selectedSection === "Resume" && <Resume />} */}  
-       <Footer />
+      {selectedSection === "Resume" && <Resume />}
+      <Footer />
 
     </div>
   );
