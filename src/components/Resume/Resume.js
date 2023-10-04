@@ -19,8 +19,8 @@ import { ReactComponent as MySqlIcon } from "../../assets/mySqlIcon.svg";
 import resume from "../../assets/JoshuaHebertResume2023.pdf";
 
 const Resume = () => {
-                  // FRONTEND SKILLS Entered Here //
-// ----------------------------------------------------------------- //
+  // FRONTEND SKILLS Entered Here //
+  // ----------------------------------------------------------------- //
   const frontendSkills = [
     {
       name: "HTML5",
@@ -44,8 +44,8 @@ const Resume = () => {
       icon: <TailwindCssIcon style={{ width: "50px", height: "50px" }} />,
     },
   ];
-                  // BACKEND SKILLS Entered Here //
-// ----------------------------------------------------------------- //
+  // BACKEND SKILLS Entered Here //
+  // ----------------------------------------------------------------- //
   const backendSkills = [
     {
       name: "Node.js",
@@ -72,8 +72,8 @@ const Resume = () => {
       icon: <MySqlIcon style={{ width: "50px", height: "50px" }} />,
     },
   ];
-                  // MISCELLANEOUS SKILLS Entered Here //
-// ----------------------------------------------------------------- //
+  // MISCELLANEOUS SKILLS Entered Here //
+  // ----------------------------------------------------------------- //
   const MiscellaneousSkills = [
     {
       name: "vsCode",
@@ -100,13 +100,16 @@ const Resume = () => {
   };
   return (
     <section className="resume">
-      <h2>Resume</h2>
+      <h2> Resume & Skills </h2>
       <div className="buttons">
         <button onClick={() => scrollToSection("frontendSkills")}>
-          Frontend Skills
+          Frontend 🗳️
         </button>
         <button onClick={() => scrollToSection("backendSkills")}>
-          Backend Skills
+          Backend 🗳️
+        </button>
+        <button onClick={() => scrollToSection("MiscellaneousSkills")}>
+          Miscellaneous 🗳️
         </button>
         <a
           href={resume}
@@ -114,11 +117,11 @@ const Resume = () => {
           className="resume-link"
           rel="noreferrer"
         >
-          Download Resume (PDF)
+          <i className="fas fa-download"> Download Resume (📑PDF) </i>
         </a>
       </div>
       <div id="frontendSkills" className="skill-card">
-        <h3>Frontend Skills</h3>
+        <h3>Frontend</h3>
         <ul>
           {frontendSkills.map((skill, index) => (
             <li key={index}>{skill.icon}</li>
@@ -126,7 +129,7 @@ const Resume = () => {
         </ul>
       </div>
       <div id="backendSkills" className="skill-card">
-        <h3>Backend Skills</h3>
+        <h3>Backend</h3>
         <ul>
           {backendSkills.map((skill, index) => (
             <li key={index}>{skill.icon}</li>
@@ -134,7 +137,7 @@ const Resume = () => {
         </ul>
       </div>
       <div id="MiscellaneousSkills" className="skill-card">
-        <h3>Miscellaneous Skills</h3>
+        <h3>Miscellaneous</h3>
         <ul>
           {MiscellaneousSkills.map((skill, index) => (
             <li key={index}>{skill.icon}</li>

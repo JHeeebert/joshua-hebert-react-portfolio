@@ -9,12 +9,12 @@ const AboutMe = () => {
                 <h2>About Me</h2>
                 <p>
                     Greetings! I’m Joshua Hebert, a passionate Full Stack Web Developer
-                    based in the vibrant city of Charlotte, North Carolina. My journey
+                    based in the <strong>👑Queen👑 city Charlotte, North Carolina.</strong> My journey
                     into the world of web development was sparked by an early fascination
                     with technology, which soon blossomed into a dedicated pursuit. I’ve
                     had the privilege of acquiring a diverse set of skills, including
-                    proficiency in React.js, Express.js, Node.js, MySQL, GraphQL, and
-                    MongoDB. With these tools in my arsenal, I craft seamless digital
+                    proficiency in <strong>React.js, Express.js, Node.js, MySQL, GraphQL, and
+                    MongoDB.</strong> With these tools in my arsenal, I craft seamless digital
                     experiences that seamlessly marry form and function.
                 </p>
                 <p>
@@ -22,9 +22,9 @@ const AboutMe = () => {
                     to drive meaningful change. From the elegant architecture of a
                     well-designed website to the intricacies of back-end functionality,
                     every facet of development represents an opportunity to innovate and
-                    create impactful solutions. In my constant quest for growth, I am not
+                    create impactful solutions. In my constant quest for growth, <strong>I am not
                     just a developer; I am an innovator, a problem solver, and a lifelong
-                    learner. The dynamism of the tech industry fuels my drive to
+                    learner.</strong> The dynamism of the tech industry fuels my drive to
                     continually evolve and adapt, ensuring that I stay ahead of the curve.
                 </p>
                 <div className="interests">
