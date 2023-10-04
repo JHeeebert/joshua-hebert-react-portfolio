@@ -4,6 +4,7 @@ import mixMuse from "../../assets/mixMusePortfolioPhoto.png";
 import weatherApp from "../../assets/weatherAppPortfolioPhoto.png";
 import socialMediaApi from "../../assets/socialMediaApiPortfolioPhoto.png";
 import marvelFlicks from "../../assets/marvelFlicksPortfolioPhoto.png";
+import pwaTextEditor from "../../assets/textEditorPortfolioPhoto.png";
 
 const Portfolio = () => {
     return (
@@ -103,6 +104,26 @@ const Portfolio = () => {
                             GitHub Repository
                         </a>
                     </div>
+                    <div>
+                <h3>PWA Text Editor</h3>
+                    <img className="app-card" src={pwaTextEditor} alt="Profile" />
+                    <div>
+                    <a
+                            href="https://jheeebert-pwa-text-editor-ddb6fb783130.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Deployed App
+                        </a>
+                        <a
+                            href="https://github.com/JHeeebert/pwa-text-editor"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub Repository
+                        </a>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
