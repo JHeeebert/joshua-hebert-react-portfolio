@@ -1,60 +1,121 @@
 resume {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
 }
 
 .resume h2 {
-    color: #2980b9;
-    font-weight: bold;
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-    text-align: center;
+  color: #2980b9;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .resume .buttons {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #ecf0f1;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0% 10% 0% 10%;
+  line-height: 1.5;
+  }
+.buttons button,
+.resume-link {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2980b9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  color: #ecf0f1;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow .3s ease-in-out;
+  display: inline-block;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.resume .resume-link {
-    padding: 10px 20px;
-    border: none;
-    background-color: #2980b9;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-}
+.buttons button:hover,
+.resume-link:hover {
+  background-color: #3498db;
+  transform: scale(1.1);
+  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.2);
 
-.resume .resume-link:hover {
-    background-color: #3498db;
 }
 
 .resume .skill-card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px auto;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .resume .skill-card h3 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #2980b9;
+  text-align: center;
 }
 
 .resume .skill-card ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #ecf0f1;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0% 10% 0% 10%;
+  line-height: 1.5;
 }
 
 .resume .skill-card ul li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2980b9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.skill-card {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.skill-card ul li svg path {
+  stroke-dasharray: 1000; /* this is the length of the path */
+  stroke-dashoffset: 1000; /* this is the length of the path */
+  animation: dash 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: -5;
+  }
+
+  to {
+    opacity: 3;
+  }
 }
