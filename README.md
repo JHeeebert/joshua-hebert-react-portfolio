@@ -57,7 +57,7 @@ From the moment you land on the main page, you'll be greeted with a user-friendl
 
 ## License
 
-[![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![GitHub license](https://badgen.net/github/license/jheeebert/joshua-hebert-react-portfolio)](LICENSE)
 
 ## Contributing
 
