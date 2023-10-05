@@ -6,9 +6,9 @@ const Header = ({ selectedSection, handleSectionChange }) => {
     return (
         <header>
             <div>
-            <a href="/" className="header-link">    
-            <h1>Joshua Hebert</h1>
-            </a>
+                <a href="/" className="header-link">
+                    <h1>Joshua Hebert</h1>
+                </a>
                 <nav>
                     <button
                         onClick={() => handleSectionChange("About Me")}

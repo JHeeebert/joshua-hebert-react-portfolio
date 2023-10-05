@@ -75,7 +75,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div>
-                <h3>Weather App</h3>
+                    <h3>Weather App</h3>
                     <img className="app-card" src={weatherApp} alt="Profile" />
                     <div>
                         <a
@@ -95,7 +95,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div>
-                <h3>Social Media API</h3>
+                    <h3>Social Media API</h3>
                     <img className="app-card" src={socialMediaApi} alt="Profile" />
                     <div>
                         <a
@@ -107,25 +107,25 @@ const Portfolio = () => {
                         </a>
                     </div>
                     <div>
-                <h3>PWA Text Editor</h3>
-                    <img className="app-card" src={pwaTextEditor} alt="Profile" />
-                    <div>
-                    <a
-                            href="https://jheeebert-pwa-text-editor-ddb6fb783130.herokuapp.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Deployed App
-                        </a>
-                        <a
-                            href="https://github.com/JHeeebert/pwa-text-editor"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            GitHub Repository
-                        </a>
+                        <h3>PWA Text Editor</h3>
+                        <img className="app-card" src={pwaTextEditor} alt="Profile" />
+                        <div>
+                            <a
+                                href="https://jheeebert-pwa-text-editor-ddb6fb783130.herokuapp.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Deployed App
+                            </a>
+                            <a
+                                href="https://github.com/JHeeebert/pwa-text-editor"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub Repository
+                            </a>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </section>

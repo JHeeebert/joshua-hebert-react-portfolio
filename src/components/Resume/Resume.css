@@ -6,7 +6,7 @@
   margin: 20px auto;
   max-width: 800px;
   padding: 20px;
-  background-color:#34495e;
+  background-color: #34495e;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   color: rgb(157, 148, 148);
@@ -30,12 +30,13 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  color:rgb(157, 148, 148);
+  color: rgb(157, 148, 148);
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 0% 10% 0% 10%;
   line-height: 1.5;
-  }
+}
+
 .buttons button,
 .resume-link {
   margin: 10px;
@@ -44,22 +45,33 @@
   background-color: #2980b9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: none;
-  color: rgb(157, 148, 148);
+  color: white;
   font-size: 1em;
   font-weight: 300;
   letter-spacing: 0.1em;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
   display: inline-block;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
 }
 
 .buttons button:hover,
 .resume-link:hover {
   background-color: #3498db;
-  transform: scale(1.1);
-  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.2);
-
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Add a little shadow */
+    border-radius: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-decoration: none;
 }
 
 .resume .skill-card {
@@ -107,16 +119,18 @@
   background-color: #2980b9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .skill-card {
   opacity: 0;
   animation: fadeIn 0.5s forwards;
 }
 
 .skill-card ul li svg path {
-  stroke-dasharray: 1000; /* this is the length of the path */
-  stroke-dashoffset: 1000; /* this is the length of the path */
+  stroke-dasharray: 1000;
+  /* this is the length of the path */
+  stroke-dashoffset: 1000;
+  /* this is the length of the path */
   animation: dash 1s ease-in-out forwards;
-
 }
 
 @keyframes fadeIn {

@@ -1,172 +1,172 @@
 section.about-me {
-    background-color: #34495e;
-    /* Dark blue background color */
-    color:  #fbfbfb;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    /* Shadow effect */
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Center horizontally */
-    justify-content: center;
-    /* Center vertically */
-    margin: 20px auto;
-    max-width: 800px;
-  }
-  
-  section.about-me h2 {
-    color: rgb(157, 148, 148);
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 2em;
-    margin-top: 0;
-    margin-bottom: 20px;
-    /* Add some space between heading and paragraph */
-    line-height: 1.5em;
-    /* Add some padding between paragraphs */
-  }
-  
-  section.about-me h2:hover {
-    color: #13b8e1;
-    transform: translate3d(0, -2px, 0);
-    text-decoration: none;
-    transition: all 0.3s ease;
-    margin: 0 10px;
-    cursor: pointer;
-    font-size: 3rem;
-    font-family: "Roboto", sans-serif;
-    text-transform: content '\e8c0';
-    font-family: 'Material Icons';
-    font-weight: normal;
-    text-decoration: none;
-  }
-  
-  section.about-me p {
-    text-align: justifycenter;
-    /* Center text */
-    max-width: 700px;
-    /* Limit width of text */
-    margin: 0 auto;
-    /* Center text horizontally */
-    padding: 0 20px;
-    /* Add a little padding on the sides */
-    font-family: "Roboto", sans-serif;
-    /* Roboto font */
-    font-weight: 300;
-    /* Light font weight */
-    letter-spacing: 0.1em;
-    /* Add some letter spacing */
-    margin-bottom: 20px;
-    /* Add some space between paragraphs */
-    margin-top: 20px;
-    /* Add some space between paragraphs */
-    line-height: 1.5;
-    /* Add some space between paragraphs */
-    color: #fbfbfb;
-    /* Light text color */
-    font-size: 1em;
-    /* Make text bigger */
-  }
-  
-  section.about-me .profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    justify-content: center;
-    /* Center image vertically */
-    align-items: center;
-    /* Center image horizontally */
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* Add a little shadow */
-  }
-  
-  section.about-me .interests {
-    display: inline-block;
-    width: 100%;
-    max-width: 700px;
-    text-align: center;
-    /* Align interests text to the left */
-    font-weight: 300;
-    /* Light font weight */
-    letter-spacing: 0.1em;
-    /* Add some letter spacing */
-    margin-bottom: 20px;
-    /* Add some space between paragraphs */
-    margin-top: 20px;
-    /* Add some space between paragraphs */
-    line-height: 1.5;
-  }
-  
-  section.about-me .interests h3 {
-    font-size: 2em;
-    /* Make text bigger */
-    font-weight: bold;
-    /* Bold font */
-    text-transform: uppercase;
-    /* Make text uppercase */
-    margin-bottom: 10px;
-    /* Add some space between paragraphs */
-    color: rgb(157, 148, 148);
-    letter-spacing: 0.1em;
-    /* Add some letter spacing */
-    text-align: center;
-    /* Align interests text to the left */
-    font-weight: bold;
-  }
-  
-  section.about-me .interests h3:hover {
-    color: #13b8e1;
-    transform: translate3d(0, -2px, 0);
-    text-decoration: none;
-    transition: all 0.3s ease;
-    margin: 0 10px;
-    cursor: pointer;
-    font-size: 3em;
-    font-family: "Roboto", sans-serif;
-    text-transform: content '\e8c0';
-    font-family: 'Material Icons';
-    font-weight: normal;
-    text-decoration: none;
-  }
-  
-  section.about-me .interests ul {
-    list-style-type: none;
-    /* Remove bullet points */
-    padding: 0;
-    /* Remove default padding */
-    margin: 0;
-    /* Remove default margin */
-    display: flex;
-    /* Flex container */
-    flex-wrap: wrap;
-    justify-content: center;
-    /* Justify content */
-    align-items: center;
-    /* Align items */
-    margin-bottom: 20px;
-    /* Add some space between paragraphs */
-    color: #ecf0f1;
-    /* Light text color */
-    font-size: 1em;
-    /* Make text bigger */
-    font-weight: 300;
-    /* Light font weight */
-    letter-spacing: 0.1em;
-    /* Add some letter spacing */
-    margin-bottom: 20px;
-    /* Add some space between paragraphs */
-    margin-top: 20px;
-    /* Add some space between paragraphs */
-    line-height: 1.5;
-    /* Add some space between paragraphs */
-    text-align: justifycenter;
-  }
-  
-  section.about-me .interests ul li {
-    margin-bottom: 5px;
-  }
+  background-color: #34495e;
+  /* Dark blue background color */
+  color: #fbfbfb;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  /* Shadow effect */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center horizontally */
+  justify-content: center;
+  /* Center vertically */
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+section.about-me h2 {
+  color: rgb(157, 148, 148);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  /* Add some space between heading and paragraph */
+  line-height: 1.5em;
+  /* Add some padding between paragraphs */
+}
+
+section.about-me h2:hover {
+  color: #13b8e1;
+  transform: translate3d(0, -2px, 0);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: content '\e8c0';
+  font-family: 'Material Icons';
+  font-weight: normal;
+  text-decoration: none;
+}
+
+section.about-me p {
+  text-align: justifycenter;
+  /* Center text */
+  max-width: 700px;
+  /* Limit width of text */
+  margin: 0 auto;
+  /* Center text horizontally */
+  padding: 0 20px;
+  /* Add a little padding on the sides */
+  font-family: "Roboto", sans-serif;
+  /* Roboto font */
+  font-weight: 300;
+  /* Light font weight */
+  letter-spacing: 0.1em;
+  /* Add some letter spacing */
+  margin-bottom: 20px;
+  /* Add some space between paragraphs */
+  margin-top: 20px;
+  /* Add some space between paragraphs */
+  line-height: 1.5;
+  /* Add some space between paragraphs */
+  color: #fbfbfb;
+  /* Light text color */
+  font-size: 1em;
+  /* Make text bigger */
+}
+
+section.about-me .profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  /* Center image vertically */
+  align-items: center;
+  /* Center image horizontally */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Add a little shadow */
+}
+
+section.about-me .interests {
+  display: inline-block;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  /* Align interests text to the left */
+  font-weight: 300;
+  /* Light font weight */
+  letter-spacing: 0.1em;
+  /* Add some letter spacing */
+  margin-bottom: 20px;
+  /* Add some space between paragraphs */
+  margin-top: 20px;
+  /* Add some space between paragraphs */
+  line-height: 1.5;
+}
+
+section.about-me .interests h3 {
+  font-size: 2em;
+  /* Make text bigger */
+  font-weight: bold;
+  /* Bold font */
+  text-transform: uppercase;
+  /* Make text uppercase */
+  margin-bottom: 10px;
+  /* Add some space between paragraphs */
+  color: rgb(157, 148, 148);
+  letter-spacing: 0.1em;
+  /* Add some letter spacing */
+  text-align: center;
+  /* Align interests text to the left */
+  font-weight: bold;
+}
+
+section.about-me .interests h3:hover {
+  color: #13b8e1;
+  transform: translate3d(0, -2px, 0);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  text-transform: content '\e8c0';
+  font-family: 'Material Icons';
+  font-weight: normal;
+  text-decoration: none;
+}
+
+section.about-me .interests ul {
+  list-style-type: none;
+  /* Remove bullet points */
+  padding: 0;
+  /* Remove default padding */
+  margin: 0;
+  /* Remove default margin */
+  display: flex;
+  /* Flex container */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Justify content */
+  align-items: center;
+  /* Align items */
+  margin-bottom: 20px;
+  /* Add some space between paragraphs */
+  color: #ecf0f1;
+  /* Light text color */
+  font-size: 1em;
+  /* Make text bigger */
+  font-weight: 300;
+  /* Light font weight */
+  letter-spacing: 0.1em;
+  /* Add some letter spacing */
+  margin-bottom: 20px;
+  /* Add some space between paragraphs */
+  margin-top: 20px;
+  /* Add some space between paragraphs */
+  line-height: 1.5;
+  /* Add some space between paragraphs */
+  text-align: justifycenter;
+}
+
+section.about-me .interests ul li {
+  margin-bottom: 5px;
+}

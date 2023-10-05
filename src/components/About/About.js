@@ -15,7 +15,7 @@ const AboutMe = () => {
                     with technology, which soon blossomed into a dedicated pursuit. I’ve
                     had the privilege of acquiring a diverse set of skills, including
                     proficiency in <strong>React.js, Express.js, Node.js, MySQL, GraphQL, and
-                    MongoDB.</strong> With these tools in my arsenal, I craft seamless digital
+                        MongoDB.</strong> With these tools in my arsenal, I craft seamless digital
                     experiences that seamlessly marry form and function.
                 </p>
                 <p>
@@ -24,8 +24,8 @@ const AboutMe = () => {
                     well-designed website to the intricacies of back-end functionality,
                     every facet of development represents an opportunity to innovate and
                     create impactful solutions. In my constant quest for growth, <strong>I am not
-                    just a developer; I am an innovator, a problem solver, and a lifelong
-                    learner.</strong> The dynamism of the tech industry fuels my drive to
+                        just a developer; I am an innovator, a problem solver, and a lifelong
+                        learner.</strong> The dynamism of the tech industry fuels my drive to
                     continually evolve and adapt, ensuring that I stay ahead of the curve.
                 </p>
                 <div className="interests">
@@ -38,19 +38,19 @@ const AboutMe = () => {
                             resonate in the tech world as well.
                         </li>
                         <li>
-                        <h4>🎮 Gaming Aficionado:</h4> In the realm of gaming, I find not only
+                            <h4>🎮 Gaming Aficionado:</h4> In the realm of gaming, I find not only
                             entertainment but also a fascinating intersection of technology
                             and storytelling. Exploring virtual worlds and tackling in-game
                             challenges nourishes my creative and strategic thinking.
                         </li>
                         <li>
-                        <h4>🍴 Culinary Explorer:</h4> The world of flavors beckons, and I am
+                            <h4>🍴 Culinary Explorer:</h4> The world of flavors beckons, and I am
                             always eager to explore it. Whether it’s trying new recipes or
                             discovering unique eateries, the culinary realm is an adventure in
                             itself.
                         </li>
                         <li>
-                        <h4> 📸 Photography Enthusiast:</h4> Capturing moments through the lens is a
+                            <h4> 📸 Photography Enthusiast:</h4> Capturing moments through the lens is a
                             passion that allows me to freeze memories in time. Each photograph
                             tells a story, and this art form enables me to express my
                             creativity and view the world from a different perspective.

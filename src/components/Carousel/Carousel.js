@@ -17,7 +17,6 @@ function Carousel() {
     >
       <div className="carousel-inner">
         <div className="carousel-item active">
-
           <img src={main4} alt="Slide 4" />
           <div className="carousel-item active">
             <img src={main1} className="d-block w-100" alt="Slide 1" />
@@ -38,7 +37,10 @@ function Carousel() {
           role="button"
           data-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
           <span className="sr-only"></span>
         </a>
         <a
@@ -47,7 +49,10 @@ function Carousel() {
           role="button"
           data-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
           <span className="sr-only"></span>
         </a>
       </div>
