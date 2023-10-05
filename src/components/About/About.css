@@ -12,6 +12,8 @@ section.about-me {
     /* Center horizontally */
     justify-content: center;
     /* Center vertically */
+    margin: 20px auto;
+    max-width: 800px;
   }
   
   section.about-me h2 {
