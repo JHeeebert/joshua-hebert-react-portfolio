@@ -48,12 +48,21 @@ From the moment you land on the main page, you'll be greeted with a user-friendl
   ![Main Page](./screenshots/mainPage.png)
 - **Portfolio Image** <br>
   ![Portfolio](./screenshots/portfolioImage.png)
-  - **Portfolio Image2** <br>
+- **Portfolio Image2** <br>
   ![Portfolio2](./screenshots/portfolioImage2.png)
-    - **Contact** <br>
+- **Contact** <br>
   ![Contact](./screenshots/contactImage.png)
-      - **Resume** <br>
+- **Contact** <br>
   ![Resume](./screenshots/resumeImage.png)
+- **Resume** <br>
+  ![Resume Hover](./screenshots/resumeHoverImage.png)
+- **Resume Hover** <br>
+  ![SweetAlert Form Submit](./screenshots/sweetAlertFormSubmit.png)
+- **SweetAlert Form Submit** <br>
+ ![Sweet Alert Download Resume Confirm](./screenshots/sweetAlertDownloadResumeConfirm.png)
+- **Sweet Alert Download Resume Confirm** <br>
+  ![Sweet Alert Contact Display After Confirm](./screenshots/sweetAlertContactAfterConfirm.png)
+  **Sweet Alert Contact Display After Confirm** <br>
 
 ## License
 
