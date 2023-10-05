@@ -14,6 +14,10 @@ import { ReactComponent as GitHubIcon } from "../../assets/gitHubIcon.svg";
 import { ReactComponent as NpmIcon } from "../../assets/npmIcon.svg";
 import { ReactComponent as GraphQLIcon } from "../../assets/graphqlIcon.svg";
 import { ReactComponent as MySqlIcon } from "../../assets/mySqlIcon.svg";
+import { ReactComponent as BootStrapIcon } from "../../assets/bootstrapIcon.svg";
+
+// IMPORT FOR ANIMATE.CSS //
+import "animate.css";
 
 // IMPORT FOR SWEET ALERT //
 import MySwal from "sweetalert2";
@@ -65,24 +69,45 @@ const Resume = () => {
   const frontendSkills = [
     {
       name: "HTML5",
-      icon: <HTMLIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://html.com/" target="_blank" rel="noopener noreferrer"><HTMLIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "HTML5 Icon",
+      message: "HTML5 is a markup language built for the web.",
     },
 
     {
       name: "CSS3",
-      icon: <CSSIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer"><CSSIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "CSS3 Icon",
+      message:
+        "CSS3 is a powerful styling language that allows for easy styling of web pages.",
     },
     {
       name: "JavaScript",
-      icon: <JavaScriptIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer"><JavaScriptIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "JavaScript Icon",
+      message:
+        "JavaScript is a powerful scripting language that allows easy scripting of web pages.",
     },
     {
       name: "React.js",
-      icon: <ReactIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://react.dev/" target="_blank" rel="noopener noreferrer"><ReactIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "React.js Icon",
+      message:
+        "React.js is a JavaScript library that allows developers to build user interfaces.",
     },
     {
       name: "Tailwind CSS",
-      icon: <TailwindCssIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"><TailwindCssIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "Tailwind CSS Icon",
+      message:
+        "Tailwind CSS is a CSS framework that allows developers to build web pages quickly and easily.",
+    },
+    {
+      name: "Bootstrap",
+      icon: <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><BootStrapIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "Bootstrap Icon",
+      message:
+        "Bootstrap allows developers to build web pages quickly and easily.",
     },
   ];
   // BACKEND SKILLS Entered Here //
@@ -90,27 +115,37 @@ const Resume = () => {
   const backendSkills = [
     {
       name: "Node.js",
-      icon: <NodeJSIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer"><NodeJSIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "Node.js Icon",
+      message:
+        "Node.js is a JavaScript runtime environment that allows developers to build web servers.",
     },
     {
       name: "Express.js",
-      icon: <ExpressJSIcon style={{ width: "50px", height: "50px" }} />,
-    },
-    {
-      name: "JavaScript",
-      icon: <JavaScriptIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="http://expressjs.com/" target="_blank" rel="noopener noreferrer"><ExpressJSIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "Express.js Icon",
+      message: "Express.js allows developers to build web servers.",
     },
     {
       name: "MongoDB",
-      icon: <MongoDBIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer"><MongoDBIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "MongoDB Icon",
+      message:
+        "MongoDB is a NoSQL database that allows developers to store data.",
     },
     {
       name: "GraphQL",
-      icon: <GraphQLIcon style={{ width: "50px", height: "50px" }} />,
+      icon:<a href="https://graphql.org/" target="_blank" rel="noopener noreferrer"><GraphQLIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "GraphQL Icon",
+      message:
+      "GraphQL is a query language for APIs that allows developers to build APIs.",
     },
     {
       name: "MySQL",
-      icon: <MySqlIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer"><MySqlIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "MySQL Icon",
+      message:
+      "MySQL is a relational database that allows developers to store data.",
     },
   ];
   // MISCELLANEOUS SKILLS Entered Here //
@@ -118,15 +153,21 @@ const Resume = () => {
   const MiscellaneousSkills = [
     {
       name: "vsCode",
-      icon: <VsCodeIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer"><VsCodeIcon style={{ width: "50px", height: "50px" }}className="animate__animated animate__fadeIn" /></a>,
+      iconAlt: "vsCode Icon",
+      message: "vsCode is a code editor that allows developers to code and provides a variety of useful features.",
     },
     {
       name: "GitHub",
-      icon: <GitHubIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "GitHub Icon",
+      message: "GitHub is a code repository that allows developers to share code with others and contribute to open source projects.",
     },
     {
       name: "NPM",
-      icon: <NpmIcon style={{ width: "50px", height: "50px" }} />,
+      icon: <a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer"><NpmIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "NPM Icon",
+      message: "NPM is a package manager that allows developers to share code with others and contribute to open source projects.",
     },
   ];
   // Scroll to the top of the page when the component mounts
@@ -152,21 +193,16 @@ const Resume = () => {
         <button onClick={() => scrollToSection("MiscellaneousSkills")}>
           Miscellaneous 🗳️
         </button>
-        {/* <a
-          href={resume}
-          target="_blank"
-          className="resume-link"
-          rel="noreferrer"
-        >
-          <i className="fas fa-download"> Download Resume (📑PDF) </i>
-        </a> */}
         <button onClick={handleDownloadResume}>Download Resume (📑PDF)</button>
       </div>
       <div id="frontendSkills" className="skill-card">
         <h3>Frontend</h3>
         <ul>
           {frontendSkills.map((skill, index) => (
-            <li key={index}>{skill.icon}</li>
+            <li key={index} className="tooltip-container">
+              {skill.icon}
+              <span className="tooltiptext">{skill.message}</span>
+            </li>
           ))}
         </ul>
       </div>
@@ -174,7 +210,10 @@ const Resume = () => {
         <h3>Backend</h3>
         <ul>
           {backendSkills.map((skill, index) => (
-            <li key={index}>{skill.icon}</li>
+            <li key={index} className="tooltip-container">
+              {skill.icon}
+              <span className="tooltiptext">{skill.message}</span>
+            </li>
           ))}
         </ul>
       </div>
@@ -182,7 +221,10 @@ const Resume = () => {
         <h3>Miscellaneous</h3>
         <ul>
           {MiscellaneousSkills.map((skill, index) => (
-            <li key={index}>{skill.icon}</li>
+            <li key={index} className="tooltip-container">
+              {skill.icon}
+              <span className="tooltiptext">{skill.message}</span>
+            </li>
           ))}
         </ul>
       </div>

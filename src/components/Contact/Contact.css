@@ -51,7 +51,6 @@ section.contact form button {
     background-color: #2980b9;
     color: #fff;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 section.contact form button:hover {
@@ -66,3 +65,5 @@ ul {
 ul li {
     margin-bottom: 5px;
 }
+
+

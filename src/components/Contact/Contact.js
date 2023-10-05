@@ -4,6 +4,10 @@ import Swal from "sweetalert2";
 // Import CSS Styles from the Contact.CSS file
 import "./Contact.css";
 
+// Import SVG Icons
+import GmailIcon from "../../../src/assets/gmailIcon.svg";
+import PhoneIcon from "../../../src/assets/phoneIcon.svg";
+
 const Contact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -66,6 +70,14 @@ const Contact = () => {
                     ></textarea>
                 </div>
                 <button type="submit">Submit</button>
+                <div className="icon-container">
+                <a href="mailto:jheeebertwd@gmail.com">
+                    <img src={GmailIcon} alt="Gmail" style={{ width: "50px", height: "50px", marginRight: "180px" }} />
+                </a>
+                <a href="tel:+14072425569">
+                    <img src={PhoneIcon} alt="Phone" style={{ width: "50px", height: "50px" }} />
+                </a>
+                </div>
             </form>
         </section>
     );
