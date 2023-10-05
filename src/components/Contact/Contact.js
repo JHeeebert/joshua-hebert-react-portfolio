@@ -33,7 +33,7 @@ const Contact = () => {
         setMessage("");
     };
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <h2>Leave some advice, feedback or words of encouragement!</h2>
             <form onSubmit={handleSubmit}>
                 <div>

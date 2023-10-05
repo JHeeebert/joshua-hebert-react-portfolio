@@ -1,10 +1,14 @@
 import React from "react";
+import './Header.css'
+
 
 const Header = ({ selectedSection, handleSectionChange }) => {
     return (
         <header>
             <div>
-                <h1>Joshua Hebert</h1>
+            <a href="/" className="header-link">    
+            <h1>Joshua Hebert</h1>
+            </a>
                 <nav>
                     <button
                         onClick={() => handleSectionChange("About Me")}

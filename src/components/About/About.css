@@ -1,7 +1,7 @@
 section.about-me {
     background-color: #34495e;
     /* Dark blue background color */
-    color: #ecf0f1;
+    color:  #fbfbfb;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     /* Shadow effect */
@@ -15,8 +15,7 @@ section.about-me {
   }
   
   section.about-me h2 {
-    color: #2980b9;
-    /* Dark blue heading */
+    color: rgb(157, 148, 148);
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
@@ -27,6 +26,21 @@ section.about-me {
     /* Add some space between heading and paragraph */
     line-height: 1.5em;
     /* Add some padding between paragraphs */
+  }
+  
+  section.about-me h2:hover {
+    color: #13b8e1;
+    transform: translate3d(0, -2px, 0);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    text-transform: content '\e8c0';
+    font-family: 'Material Icons';
+    font-weight: normal;
+    text-decoration: none;
   }
   
   section.about-me p {
@@ -50,7 +64,7 @@ section.about-me {
     /* Add some space between paragraphs */
     line-height: 1.5;
     /* Add some space between paragraphs */
-    color: #ecf0f1;
+    color: #fbfbfb;
     /* Light text color */
     font-size: 1em;
     /* Make text bigger */
@@ -87,7 +101,7 @@ section.about-me {
   }
   
   section.about-me .interests h3 {
-    font-size: 1.2em;
+    font-size: 2em;
     /* Make text bigger */
     font-weight: bold;
     /* Bold font */
@@ -95,13 +109,27 @@ section.about-me {
     /* Make text uppercase */
     margin-bottom: 10px;
     /* Add some space between paragraphs */
-    color: #2980b9;
-    /* Dark blue heading */
+    color: rgb(157, 148, 148);
     letter-spacing: 0.1em;
     /* Add some letter spacing */
     text-align: center;
     /* Align interests text to the left */
     font-weight: bold;
+  }
+  
+  section.about-me .interests h3:hover {
+    color: #13b8e1;
+    transform: translate3d(0, -2px, 0);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+    text-transform: content '\e8c0';
+    font-family: 'Material Icons';
+    font-weight: normal;
+    text-decoration: none;
   }
   
   section.about-me .interests ul {

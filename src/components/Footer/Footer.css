@@ -39,6 +39,17 @@ img.logo:hover {
 
 footer a:hover {
   color: #092755;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Add a little shadow */
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
 
 footer a:active {
