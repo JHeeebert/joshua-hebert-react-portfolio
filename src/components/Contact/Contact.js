@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 // Added sweetalert2 to the project to give clean messages to the user.
 import Swal from "sweetalert2";
+// Import CSS Styles from the Contact.CSS file
+import "./Contact.css";
 
 const Contact = () => {
     const [name, setName] = useState("");

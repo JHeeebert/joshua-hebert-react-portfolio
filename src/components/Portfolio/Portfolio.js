@@ -6,6 +6,8 @@ import socialMediaApi from "../../assets/socialMediaApiPortfolioPhoto.png";
 import marvelFlicks from "../../assets/marvelFlicksPortfolioPhoto.png";
 import pwaTextEditor from "../../assets/textEditorPortfolioPhoto.png";
 
+import './Portfolio.css';
+
 const Portfolio = () => {
     return (
         <section className="portfolio">
