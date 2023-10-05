@@ -169,3 +169,42 @@ section form button:hover {
   font-size: 1em;
   font-family: "Roboto", sans-serif;
 }
+
+.swal2-popup {
+  font-size: 1.6rem !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /* Default font weight */
+  line-height: 1.5;
+  /* Default line height */
+  text-decoration: none;
+  /* Remove default text decoration */
+  list-style: none;
+  /* Remove default list style */
+}
+
+.swal2-popup.swal2-title {
+  font-size: 1.6rem !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /* Default font weight */
+  line-height: 1.5;
+  /* Default line height */
+  text-decoration: none;
+  /* Remove default text decoration */
+  list-style: none;
+  /* Remove default list style */
+}
+
+.swal2-popup.swal2-text {
+  font-size: 1.6rem !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /* Default font weight */
+  line-height: 1.5;
+  /* Default line height */
+  text-decoration: none;
+  /* Remove default text decoration */
+  list-style: none;
+  /* Remove default list style */
+}

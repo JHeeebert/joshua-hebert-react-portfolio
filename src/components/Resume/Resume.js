@@ -15,8 +15,49 @@ import { ReactComponent as NpmIcon } from "../../assets/npmIcon.svg";
 import { ReactComponent as GraphQLIcon } from "../../assets/graphqlIcon.svg";
 import { ReactComponent as MySqlIcon } from "../../assets/mySqlIcon.svg";
 
+// IMPORT FOR SWEET ALERT //
+import MySwal from "sweetalert2";
+
 // IMPORT FOR RESUME PDF //
 import resume from "../../assets/JoshuaHebertResume2023.pdf";
+
+const handleDownloadResume = () => {
+  MySwal.fire({
+    title: "Download Resume",
+    text: "Are you sure you want to download my resume?",
+    icon: "info",
+    showCancelButton: true,
+    confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Download",
+    cancelButtonText: "Cancel",
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.open(resume);
+      MySwal.fire({
+        title: "Thank you!",
+        text: "Your download will start shortly.",
+        icon: "success",
+        timer: 3000,
+        timerProgressBar: true,
+        didOpen: () => {
+          MySwal.showLoading();
+        },
+      });
+      // Display contact information after the timer
+      setTimeout(() => {
+        MySwal.fire({
+          title: "If you have any ⍰ QUESTIONS ⍰ or WORK please contact me!",
+          html: `
+            Email: jheeebertwd.com<br>
+            Phone: +1 407 242 5569<br>
+          `,
+          icon: "info",
+        });
+      }, 3000); // Display after 3 seconds (matching the timer)
+    }
+  });
+};
 
 const Resume = () => {
   // FRONTEND SKILLS Entered Here //
@@ -111,14 +152,15 @@ const Resume = () => {
         <button onClick={() => scrollToSection("MiscellaneousSkills")}>
           Miscellaneous 🗳️
         </button>
-        <a
+        {/* <a
           href={resume}
           target="_blank"
           className="resume-link"
           rel="noreferrer"
         >
           <i className="fas fa-download"> Download Resume (📑PDF) </i>
-        </a>
+        </a> */}
+        <button onClick={handleDownloadResume}>Download Resume (📑PDF)</button>
       </div>
       <div id="frontendSkills" className="skill-card">
         <h3>Frontend</h3>
