@@ -5,7 +5,7 @@ import './Header.css'
 const Header = ({ selectedSection, handleSectionChange }) => {
     return (
         <header>
-            <div>
+            <div className="header-container">
                 <a href="/" className="header-link">
                     <h1>Joshua Hebert</h1>
                 </a>

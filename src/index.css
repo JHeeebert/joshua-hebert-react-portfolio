@@ -1,20 +1,20 @@
 /* Global Styles */
-
 body {
-  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #136dc6;
-  /* Dark background color */
-  color: #fbfbfb;
-  /* Light text color */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  /* Make sure the page is always at least as tall as the viewport */
-}
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /* Default font weight */
+  line-height: 1.5;
+  /* Default line height */
+  text-decoration: none;
+  /* Remove default text decoration */
+  list-style: none;
+  /* Remove default list style */
+  }
 
-/* Header */
+  /* Header */
 header {
   background-color: #34495e;
   /* Dark blue header */
@@ -30,6 +30,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
+
 
 /* Footer */
 footer {
