@@ -10,6 +10,9 @@ body {
   flex-direction: column;
   min-height: 100vh;
   /* Make sure the page is always at least as tall as the viewport */
+  overflow: auto;
+  /* Enable scroll if needed */
+  
 }
 
 header {
@@ -86,7 +89,7 @@ section form textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 100%;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   margin-bottom: 10px;
   font-size: 1em;
   font-family: "Roboto", sans-serif;
@@ -212,7 +215,6 @@ section.about-me {
   /* Center horizontally */
   justify-content: center;
   /* Center vertically */
-
 }
 
 section.about-me h2 {
@@ -227,7 +229,7 @@ section.about-me h2 {
   margin-bottom: 20px;
   /* Add some space between heading and paragraph */
   line-height: 1.5em;
-  /* Add some padding between paragraphs */  
+  /* Add some padding between paragraphs */
 }
 
 section.about-me p {
@@ -267,13 +269,13 @@ section.about-me .profile-image {
   /* Center image horizontally */
   margin-bottom: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* Add a little shadow */  
+  /* Add a little shadow */
 }
 
 section.about-me .interests {
- display: inline-block;
- width: 100%;
-max-width: 700px; 
+  display: inline-block;
+  width: 100%;
+  max-width: 700px;
   text-align: center;
   /* Align interests text to the left */
   font-weight: 300;
@@ -285,7 +287,6 @@ max-width: 700px;
   margin-top: 20px;
   /* Add some space between paragraphs */
   line-height: 1.5;
-
 }
 
 section.about-me .interests h3 {
@@ -348,8 +349,7 @@ section.about-me .interests ul li {
   height: 50px;
   border-radius: 50%;
   margin-bottom: 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 section.portfolio {
   display: flex;
@@ -384,7 +384,7 @@ section.portfolio img {
   border-radius: 10px;
   max-width: 750px;
   margin-bottom: 10px;
-  }
+}
 
 section.portfolio .app-card h3 {
   margin-bottom: 5px;

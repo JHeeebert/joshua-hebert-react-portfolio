@@ -1,132 +1,70 @@
 import React from "react";
-import main1 from "../assets/main1.jpeg";
-import main2 from "../assets/main2.jpeg";
-import main3 from "../assets/main3.jpeg";
-import main4 from "../assets/main4.jpeg";
 
-function FeaturedProducts() {
+import main1 from "../../assets/slide1.jpg";
+
+import main2 from "../../assets/slide2.jpg";
+
+import main3 from "../../assets/slide3.jpg";
+
+import main4 from "../../assets/slide4.jpg";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Carousel.css";
+
+function Carousel() {
   return (
-    <div style={{ height: "100px !important" }}>
-      <div
-        id="myCarousel"
-        className=" carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item main-carousel-item active">
-            <div
-              className="overlay-image"
-              style={{
-                backgroundImage: `url(${main1})`,
-              }}
-            ></div>
-            <div
-              className=" container main-page-container test1 "
-              style={{ marginTop: "60px" }}
-            >
-              {/* <div className="test1">
-              <h1 className="fw-bold" >Check Out Our Featured Liquor</h1>
-              <p className="fs-3">
-                Click below to search featured spirits for your next cocktail
-                creation
-              </p>
-              </div> */}
-              {/* <a href="/categoryMenu" className="btn btn-outline-light">
-                Featured Liquor
-              </a> */}
-            </div>
-          </div>
-          <div className="carousel-item main-carousel-item">
-            <div
-              className="overlay-image"
-              style={{
-                backgroundImage: `url(${main2})`,
-              }}
-            ></div>
-            <div
-              className="container main-page-container "
-              style={{ marginTop: "60px" }}
-            >
-              {/* <h1 className="fw-bold">Check Out Our Featured Equipment</h1>
-              <p className="fs-3">
-                Click below to search featured equipment and build your dream
-                bar today
-              </p>
-              <a href="/categoryMenu" className="btn btn-outline-light">
-                Featured Equipment
-              </a> */}
-            </div>
-          </div>
-          <div className="carousel-item main-carousel-item">
-            <div
-              className="overlay-image"
-              style={{
-                backgroundImage: `url(${main3})`,
-              }}
-            ></div>
-            <div
-              className="container main-page-container"
-              style={{ marginTop: "60px" }}
-            >
-              {/* <h1 className="fw-bold">Check Out Our Featured Mixers</h1>
-              <p className="fs-3">
-                Click below to search featured mixers for your next cocktail
-                creation
-              </p>
-              <a href="/categoryMenu" className="btn btn-outline-light">
-                Featured Mixers
-              </a> */}
-            </div>
-          </div>
-          <div className="carousel-item main-carousel-item">
-            <div
-              className="overlay-image"
-              style={{
-                backgroundImage: `url(${main4})`,
-              }}
-            ></div>
-            <div
-              className="container main-page-container"
-              style={{ marginTop: "60px" }}
-            >
-              {/* <h1 className="fw-bold overlay">Rate and Review Products Here</h1>
-              <p className="fs-3 overlay">
-                Leave your thoughts on products and share your insight with
-                other bartenders
-              </p>
-              <a href="/categoryMenu" className="btn btn-outline-light">
-                Leave your thoughts!
-              </a> */}
-            </div>
-          </div>
+    <div id="myCarousel" className="carousel slide" data-ride='carousel' data-interval='3000' data-pause='hover'>
+      <ol className="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img src={main1} className="d-block w-100" alt="Slide 1" />
         </div>
-        <a
-          href="#myCarousel"
-          className="carousel-control-prev"
-          role="button"
-          data-bs-slide="prev"
-        >
-          <span className="sr-only"></span>
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-        </a>
-        <a
-          href="#myCarousel"
-          className="carousel-control-next"
-          role="button"
-          data-bs-slide="next"
-        >
-          <span className="sr-only"></span>
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-        </a>
+
+        <div className="carousel-item">
+          <img src={main2} className="d-block w-100" alt="Slide 2" />
+        </div>
+
+        <div className="carousel-item">
+          <img src={main3} className="d-block w-100" alt="Slide 3" />
+        </div>
+
+        <div className="carousel-item">
+          <img src={main4} className="d-block w-100" alt="Slide 4" />
+        </div>
       </div>
+
+      <a
+        className="carousel-control-prev"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+
+        <span className="sr-only"></span>
+      </a>
+
+      <a
+        className="carousel-control-next"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span className="carousel-control-next-icon" aria-hidden="true" ></span>
+
+        <span className="sr-only"></span>
+      </a>
     </div>
   );
 }
 
-export default FeaturedProducts;
+export default Carousel;

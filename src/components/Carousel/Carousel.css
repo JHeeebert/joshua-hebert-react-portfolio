@@ -1,0 +1,25 @@
+#myCarousel {
+  max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+
+  height: auto;
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-indicators li {
+  background-color: #ccc;
+}
+
+.carousel-indicators .active {
+  background-color: #3498db;
+}
