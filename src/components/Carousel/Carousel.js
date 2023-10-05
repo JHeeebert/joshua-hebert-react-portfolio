@@ -1,6 +1,6 @@
 import React from "react";
 import main1 from "../../assets/slide1.jpg";
-import main2 from "../../assets/slide2.jpg";
+import main2 from "../../assets/slide2.webp";
 import main3 from "../../assets/slide3.jpg";
 import main4 from "../../assets/slide4.jpeg";
 import main5 from "../../assets/slide5.jpg";

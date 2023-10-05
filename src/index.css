@@ -12,9 +12,9 @@ body {
   /* Remove default text decoration */
   list-style: none;
   /* Remove default list style */
-  }
+}
 
-  /* Header */
+/* Header */
 header {
   background-color: #34495e;
   /* Dark blue header */
@@ -30,7 +30,6 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
-
 
 /* Footer */
 footer {
@@ -207,4 +206,78 @@ section form button:hover {
   /* Remove default text decoration */
   list-style: none;
   /* Remove default list style */
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 767px) {
+
+  /* Adjustments for small screens */
+  .buttons button {
+    width: 100%;
+  }
+
+  .skill-card ul li svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .resume h2 {
+    text-align: center;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /* Adjustments for tablets */
+  .buttons button {
+    width: 50%;
+  }
+
+  .skill-card ul li svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 992px) {
+
+  /* Styles for desktop screens */
+  .buttons button {
+    width: auto;
+  }
+
+  .skill-card ul li svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Cell Phone Styles */
+@media only screen and (max-width: 767px) {
+
+  /* Styles for cell phones */
+  .buttons button {
+    width: 100%;
+  }
+
+  .skill-card ul li svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 50%;
+    background-color: #ecf0f1;
+  }
+
+  .resume h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
 }

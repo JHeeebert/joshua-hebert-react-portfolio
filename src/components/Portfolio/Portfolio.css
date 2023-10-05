@@ -7,7 +7,7 @@ section.portfolio {
   max-width: 1000px;
   background-color: #34495e;
   /* Dark blue background color */
-  color: #fbfbfb;
+  color: (157, 148, 148);
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   /* Shadow effect */
@@ -23,12 +23,31 @@ section.portfolio {
 }
 
 section.portfolio h2 {
-  color: #1882c9;
+  color: rgb(157, 148, 148);
   font-weight: bold;
 }
 
 section.portfolio h3 {
   color: #24bae0;
+}
+
+
+section.portfolio h3:hover {
+  color: rgb(157, 148, 148);
+  transform: translate3d(0, -2px, 0);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: content '\e8c0';
+  font-family: 'Material Icons';
+  font-weight: normal;
+  text-decoration: none;
+
+
+
 }
 
 section.portfolio .app-card {
@@ -61,5 +80,16 @@ section.portfolio a {
 
 section.portfolio a:hover {
   text-decoration: underline;
-  color: #b30c0c;
+  color: #24bae0;
+  transform: translate3d(0, -2px, 0);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: content '\e8c0';
+  font-family: 'Material Icons';
+  font-weight: normal;
+  text-decoration: none;
 }

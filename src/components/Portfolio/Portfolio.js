@@ -16,7 +16,7 @@ const Portfolio = () => {
                 {/* Titled images of applications with links */}
                 <div>
                     <h3>MixMuse</h3>
-                    <img className="app-card" src={mixMuse} alt="Profile" />
+                    <img className="app-card" src={mixMuse} alt="Profile" loading="lazy" />
                     <div>
                         <a
                             href="https://mixmuse-b1c9f2067218.herokuapp.com/"
@@ -36,7 +36,7 @@ const Portfolio = () => {
                 </div>
                 <div>
                     <h3>Marvel Flicks</h3>
-                    <img className="app-card" src={marvelFlicks} alt="Profile" />
+                    <img className="app-card" src={marvelFlicks} alt="Profile" loading="lazy" />
                     <div>
                         <a
                             href="https://jheeebert.github.io/marvel-flicks/"
@@ -56,7 +56,7 @@ const Portfolio = () => {
                 </div>
                 <div>
                     <h3>CarBidz</h3>
-                    <img className="app-card" src={carBidz} alt="Profile" />
+                    <img className="app-card" src={carBidz} alt="Profile" loading="lazy" />
                     <div>
                         <a
                             href="https://car-bidz-d6af66a79b60.herokuapp.com/"
@@ -76,7 +76,7 @@ const Portfolio = () => {
                 </div>
                 <div>
                     <h3>Weather App</h3>
-                    <img className="app-card" src={weatherApp} alt="Profile" />
+                    <img className="app-card" src={weatherApp} alt="Profile" loading="lazy" />
                     <div>
                         <a
                             href="ahttps://github.com/JHeeebert/weather-app"
@@ -96,7 +96,7 @@ const Portfolio = () => {
                 </div>
                 <div>
                     <h3>Social Media API</h3>
-                    <img className="app-card" src={socialMediaApi} alt="Profile" />
+                    <img className="app-card" src={socialMediaApi} alt="Profile" loading="lazy" />
                     <div>
                         <a
                             href="https://github.com/JHeeebert/social-media-api"
@@ -108,7 +108,7 @@ const Portfolio = () => {
                     </div>
                     <div>
                         <h3>PWA Text Editor</h3>
-                        <img className="app-card" src={pwaTextEditor} alt="Profile" />
+                        <img className="app-card" src={pwaTextEditor} alt="Profile" loading="lazy" />
                         <div>
                             <a
                                 href="https://jheeebert-pwa-text-editor-ddb6fb783130.herokuapp.com/"
