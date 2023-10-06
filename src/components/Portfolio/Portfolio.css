@@ -4,7 +4,7 @@ section.portfolio {
   align-items: center;
   text-align: center;
   margin: 20px auto;
-  max-width: 100%;
+  max-width: 75%;
   background-color: #34495e;
   /* Dark blue background color */
   color: (157, 148, 148);
@@ -19,6 +19,7 @@ section.portfolio {
   justify-content: center;
   /* Center vertically */
   margin: 20px auto;
+  overflow: hidden;
 }
 
 section.portfolio h2 {

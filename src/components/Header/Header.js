@@ -19,17 +19,17 @@ const Header = ({ selectedSection, handleSectionChange }) => {
                         I'm 
                     </p>
                     <h1>Joshua Hebert</h1>
-                    <section class="animation">
+                    <section className="animation">
                         <div class="first">
                             <div>Welcome to my Portfolio</div>
                         </div>
-                        <div class="second">
+                        <div className="second">
                             <div>Take a look around</div>
                         </div>
-                        <div class="third">
+                        <div className="third">
                             <div>I hope y'all enjoy</div>
                         </div>
-                        <div class="fourth">
+                        <div className="fourth">
                             <div>Thank you for visiting</div>
                         </div>
                     </section>

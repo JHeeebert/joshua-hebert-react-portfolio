@@ -2,10 +2,7 @@ section.about-me {
   background-color: #34495e;
   /* Dark blue background color */
   color: #fbfbfb;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   /* Shadow effect */
-  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +10,8 @@ section.about-me {
   justify-content: center;
   /* Center vertically */
   margin: 20px auto;
-  max-width:100%;
+  max-width:75%;
+  text-align: center;
 }
 
 img.about-me-icons {
@@ -23,7 +21,6 @@ img.about-me-icons {
   margin: auto auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  justify-content: space-around;
 }
 
 section.about-me h2 {

@@ -1,18 +1,9 @@
 .carousel-item img {
   width: 100%;
   /* Make the images fill the carousel */
-  height: 400px;
+  height: 250px;
   /* Adjust the height as needed */
   object-fit: cover;
-  /* Ensure the images cover the area */
-  border-radius: 10px;
-  max-width: 100%;
-  margin-bottom: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-  cursor: pointer;
-  border: 1px solid #000;
-  border-radius: 10px;
 }
 
 .carousel-item img:hover {
