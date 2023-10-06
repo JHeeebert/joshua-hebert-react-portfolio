@@ -6,6 +6,15 @@ import socialMediaApi from "../../assets/socialMediaApiPortfolioPhoto.png";
 import marvelFlicks from "../../assets/marvelFlicksPortfolioPhoto.png";
 import pwaTextEditor from "../../assets/textEditorPortfolioPhoto.png";
 
+// Imports for SVG icons
+import MarvelIcon from "../../assets/marvelIcon.svg";
+import MixMuseIcon from "../../assets/mixMuseIcon.svg";
+import CarBidzIcon from "../../assets/carBidzIcon.svg";
+import WeatherAppIcon from "../../assets/weatherAppIcon.svg";
+import SocialMediaApiIcon from "../../assets/socialMediaApiIcon.svg";
+import PwaTextEditorIcon from "../../assets/PwaTextEditorIcon.svg";
+import githubIcon2 from "../../assets/gitHubIcon2.svg";
+
 import "./Portfolio.css";
 
 const Portfolio = () => {
@@ -15,18 +24,22 @@ const Portfolio = () => {
             <div>
                 {/* Titled images of applications with links */}
                 <div>
-                    <h3>MixMuse</h3>
-                    <a
-                            href="https://mixmuse-b1c9f2067218.herokuapp.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
                     <img
-                        className="app-card"
-                        src={mixMuse}
-                        alt="Profile"
-                        loading="lazy"
+                        src={MixMuseIcon}
+                        alt="Twitter"
+                        style={{ width: "50px", height: "50px" }}
                     />
+                    <a
+                        href="https://mixmuse-b1c9f2067218.herokuapp.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            className="app-card"
+                            src={mixMuse}
+                            alt="Profile"
+                            loading="lazy"
+                        />
                     </a>
                     <div>
                         <a
@@ -34,12 +47,20 @@ const Portfolio = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            GitHub Repository
+                            <img
+                                src={githubIcon2}
+                                alt="GitHub"
+                                style={{ width: "50px", height: "50px" }}
+                            />
                         </a>
                     </div>
                 </div>
                 <div>
-                    <h3>Marvel Flicks</h3>
+                    <img
+                        src={MarvelIcon}
+                        alt="Twitter"
+                        style={{ width: "50px", height: "50px" }}
+                    />
                     <a
                         href="https://jheeebert.github.io/marvel-flicks/"
                         target="_blank"
@@ -58,12 +79,20 @@ const Portfolio = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            GitHub Repository
+                            <img
+                                src={githubIcon2}
+                                alt="GitHub"
+                                style={{ width: "50px", height: "50px" }}
+                            />
                         </a>
                     </div>
                 </div>
                 <div>
-                    <h3>CarBidz</h3>
+                    <img
+                        src={CarBidzIcon}
+                        alt="Twitter"
+                        style={{ width: "50px", height: "50px" }}
+                    />
                     <a
                         href="https://car-bidz-d6af66a79b60.herokuapp.com/"
                         target="_blank"
@@ -82,12 +111,20 @@ const Portfolio = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            GitHub Repository
+                            <img
+                                src={githubIcon2}
+                                alt="GitHub"
+                                style={{ width: "50px", height: "50px" }}
+                            />
                         </a>
                     </div>
                 </div>
                 <div>
-                    <h3>Weather App</h3>
+                    <img
+                        src={WeatherAppIcon}
+                        alt="Twitter"
+                        style={{ width: "50px", height: "50px" }}
+                    />
                     <a
                         href="https://jheeebert.github.io/weather-app/"
                         target="_blank"
@@ -106,12 +143,20 @@ const Portfolio = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            GitHub Repository
+                            <img
+                                src={githubIcon2}
+                                alt="GitHub"
+                                style={{ width: "50px", height: "50px" }}
+                            />
                         </a>
                     </div>
                 </div>
                 <div>
-                    <h3>Social Media API</h3>
+                    <img
+                        src={SocialMediaApiIcon}
+                        alt="Twitter"
+                        style={{ width: "50px", height: "50px" }}
+                    />
                     <img
                         className="app-card"
                         src={socialMediaApi}
@@ -124,22 +169,30 @@ const Portfolio = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            GitHub Repository
+                            <img
+                                src={githubIcon2}
+                                alt="GitHub"
+                                style={{ width: "50px", height: "50px" }}
+                            />{" "}
                         </a>
                     </div>
                     <div>
-                        <h3>PWA Text Editor</h3>
-                                                    <a
-                                href="https://jheeebert-pwa-text-editor-ddb6fb783130.herokuapp.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
                         <img
-                            className="app-card"
-                            src={pwaTextEditor}
-                            alt="Profile"
-                            loading="lazy"
+                            src={PwaTextEditorIcon}
+                            alt="Twitter"
+                            style={{ width: "50px", height: "50px" }}
                         />
+                        <a
+                            href="https://jheeebert-pwa-text-editor-ddb6fb783130.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                className="app-card"
+                                src={pwaTextEditor}
+                                alt="Profile"
+                                loading="lazy"
+                            />
                         </a>
                         <div>
                             <a
@@ -147,7 +200,11 @@ const Portfolio = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                GitHub Repository
+                                <img
+                                    src={githubIcon2}
+                                    alt="GitHub"
+                                    style={{ width: "50px", height: "50px" }}
+                                />{" "}
                             </a>
                         </div>
                     </div>
