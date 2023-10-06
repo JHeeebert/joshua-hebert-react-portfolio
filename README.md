@@ -59,7 +59,7 @@ From the moment you land on the main page, you'll be greeted with a user-friendl
 - **Resume Hover** <br>
   ![SweetAlert Form Submit](./screenshots/sweetAlertFormSubmit.png)
 - **SweetAlert Form Submit** <br>
- ![Sweet Alert Download Resume Confirm](./screenshots/sweetAlertDownloadResumeConfirm.png)
+  ![Sweet Alert Download Resume Confirm](./screenshots/sweetAlertDownloadResumeConfirm.png)
 - **Sweet Alert Download Resume Confirm** <br>
   ![Sweet Alert Contact Display After Confirm](./screenshots/sweetAlertContactAfterConfirm.png)
   **Sweet Alert Contact Display After Confirm** <br>
