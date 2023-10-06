@@ -15,6 +15,8 @@ import { ReactComponent as NpmIcon } from "../../assets/npmIcon.svg";
 import { ReactComponent as GraphQLIcon } from "../../assets/graphqlIcon.svg";
 import { ReactComponent as MySqlIcon } from "../../assets/mySqlIcon.svg";
 import { ReactComponent as BootStrapIcon } from "../../assets/bootstrapIcon.svg";
+import { ReactComponent as ReduxIcon } from "../../assets/reduxIcon.svg";
+import { ReactComponent as HerokuIcon } from "../../assets/herokuIcon.svg";
 
 // IMPORT FOR ANIMATE.CSS //
 import "animate.css";
@@ -109,6 +111,13 @@ const Resume = () => {
       message:
         "Bootstrap allows developers to build web pages quickly and easily.",
     },
+    {
+      name: "Redux",
+      icon: <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer"><ReduxIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "Redux Icon",
+      message:
+        "Redux is a JavaScript library that allows developers to manage the state of their application.",
+    },
   ];
   // BACKEND SKILLS Entered Here //
   // ----------------------------------------------------------------- //
@@ -168,6 +177,13 @@ const Resume = () => {
       icon: <a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer"><NpmIcon style={{ width: "50px", height: "50px" }} /></a>,
       iconAlt: "NPM Icon",
       message: "NPM is a package manager that allows developers to share code with others and contribute to open source projects.",
+    },
+    {
+      name: "Heroku",
+      icon: <a href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer"><HerokuIcon style={{ width: "50px", height: "50px" }} /></a>,
+      iconAlt: "Heroku Icon",
+      message:
+        "Heroku is a cloud platform that allows developers to deploy their web applications.",
     },
   ];
   // Scroll to the top of the page when the component mounts
