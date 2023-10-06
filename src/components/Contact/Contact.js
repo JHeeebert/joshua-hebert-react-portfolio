@@ -63,6 +63,7 @@ const Contact = () => {
                 <div>
                     <label htmlFor="message">Message:</label>
                     <textarea
+                        type="message"
                         id="message"
                         value={message}
                         onChange={handleMessageChange}
@@ -72,10 +73,10 @@ const Contact = () => {
                 <button type="submit">Submit</button>
                 <div className="icon-container">
                 <a href="mailto:jheeebertwd@gmail.com">
-                    <img src={GmailIcon} alt="Gmail" style={{ width: "50px", height: "50px", marginRight: "180px" }} />
+                    <img src={GmailIcon} alt="Gmail" style={{ width: "75px", height: "75px", marginRight: "180px" }} />
                 </a>
                 <a href="tel:+14072425569">
-                    <img src={PhoneIcon} alt="Phone" style={{ width: "50px", height: "50px" }} />
+                    <img src={PhoneIcon} alt="Phone" style={{ width: "75px", height: "75px" }} />
                 </a>
                 </div>
             </form>
