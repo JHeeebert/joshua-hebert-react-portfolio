@@ -4,7 +4,7 @@ section.portfolio {
   align-items: center;
   text-align: center;
   margin: 20px auto;
-  max-width: 1000px;
+  max-width: 100%;
   background-color: #34495e;
   /* Dark blue background color */
   color: (157, 148, 148);
@@ -19,7 +19,6 @@ section.portfolio {
   justify-content: center;
   /* Center vertically */
   margin: 20px auto;
-  max-width: 800px;
 }
 
 section.portfolio h2 {
@@ -64,7 +63,7 @@ section.portfolio img {
   width: 100%;
   border-radius: 10px;
   max-width: 750px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 section.portfolio img:hover {
@@ -84,6 +83,7 @@ section.portfolio a {
   margin-bottom: 5px;
   color: #fbfbfb;
   text-decoration: none;
+  margin-bottom: 25px;
 }
 
 section.portfolio a:hover {

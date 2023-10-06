@@ -13,7 +13,17 @@ section.about-me {
   justify-content: center;
   /* Center vertically */
   margin: 20px auto;
-  max-width: 800px;
+  max-width:100%;
+}
+
+img.about-me-icons {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin: auto auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: space-around;
 }
 
 section.about-me h2 {

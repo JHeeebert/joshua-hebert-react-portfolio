@@ -27,7 +27,7 @@ const Portfolio = () => {
                     <img
                         src={MixMuseIcon}
                         alt="Twitter"
-                        style={{ width: "50px", height: "50px" }}
+                        style={{ width: "75px", height: "75px" }}
                     />
                     <a
                         href="https://mixmuse-b1c9f2067218.herokuapp.com/"
@@ -50,7 +50,7 @@ const Portfolio = () => {
                             <img
                                 src={githubIcon2}
                                 alt="GitHub"
-                                style={{ width: "50px", height: "50px" }}
+                                style={{ width: "75px", height: "75px" }}
                             />
                         </a>
                     </div>
@@ -59,7 +59,7 @@ const Portfolio = () => {
                     <img
                         src={MarvelIcon}
                         alt="Twitter"
-                        style={{ width: "50px", height: "50px" }}
+                        style={{ width: "75px", height: "75px" }}
                     />
                     <a
                         href="https://jheeebert.github.io/marvel-flicks/"
@@ -82,7 +82,7 @@ const Portfolio = () => {
                             <img
                                 src={githubIcon2}
                                 alt="GitHub"
-                                style={{ width: "50px", height: "50px" }}
+                                style={{ width: "75px", height: "75px" }}
                             />
                         </a>
                     </div>
@@ -91,7 +91,7 @@ const Portfolio = () => {
                     <img
                         src={CarBidzIcon}
                         alt="Twitter"
-                        style={{ width: "50px", height: "50px" }}
+                        style={{ width: "75px", height: "75px" }}
                     />
                     <a
                         href="https://car-bidz-d6af66a79b60.herokuapp.com/"
@@ -114,7 +114,7 @@ const Portfolio = () => {
                             <img
                                 src={githubIcon2}
                                 alt="GitHub"
-                                style={{ width: "50px", height: "50px" }}
+                                style={{ width: "75px", height: "75px" }}
                             />
                         </a>
                     </div>
@@ -123,7 +123,7 @@ const Portfolio = () => {
                     <img
                         src={WeatherAppIcon}
                         alt="Twitter"
-                        style={{ width: "50px", height: "50px" }}
+                        style={{ width: "75px", height: "75px" }}
                     />
                     <a
                         href="https://jheeebert.github.io/weather-app/"
@@ -146,7 +146,7 @@ const Portfolio = () => {
                             <img
                                 src={githubIcon2}
                                 alt="GitHub"
-                                style={{ width: "50px", height: "50px" }}
+                                style={{ width: "75px", height: "75px" }}
                             />
                         </a>
                     </div>
@@ -155,7 +155,7 @@ const Portfolio = () => {
                     <img
                         src={SocialMediaApiIcon}
                         alt="Twitter"
-                        style={{ width: "50px", height: "50px" }}
+                        style={{ width: "75px", height: "75px" }}
                     />
                     <img
                         className="app-card"
@@ -172,7 +172,7 @@ const Portfolio = () => {
                             <img
                                 src={githubIcon2}
                                 alt="GitHub"
-                                style={{ width: "50px", height: "50px" }}
+                                style={{ width: "75px", height: "75px" }}
                             />{" "}
                         </a>
                     </div>
@@ -180,7 +180,7 @@ const Portfolio = () => {
                         <img
                             src={PwaTextEditorIcon}
                             alt="Twitter"
-                            style={{ width: "50px", height: "50px" }}
+                            style={{ width: "75px", height: "75px" }}
                         />
                         <a
                             href="https://jheeebert-pwa-text-editor-ddb6fb783130.herokuapp.com/"
@@ -203,7 +203,7 @@ const Portfolio = () => {
                                 <img
                                     src={githubIcon2}
                                     alt="GitHub"
-                                    style={{ width: "50px", height: "50px" }}
+                                    style={{ width: "75px", height: "75px" }}
                                 />{" "}
                             </a>
                         </div>

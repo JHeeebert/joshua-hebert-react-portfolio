@@ -1,5 +1,5 @@
 /* Global Styles */
-body {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -8,10 +8,6 @@ body {
   /* Default font weight */
   line-height: 1.5;
   /* Default line height */
-  text-decoration: none;
-  /* Remove default text decoration */
-  list-style: none;
-  /* Remove default list style */
 }
 
 /* Header */
@@ -29,6 +25,11 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 /* Footer */
@@ -207,7 +208,6 @@ section form button:hover {
   list-style: none;
   /* Remove default list style */
 }
-
 /* Mobile Styles */
 
 @media only screen and (max-width: 767px) {

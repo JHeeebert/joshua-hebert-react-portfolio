@@ -10,7 +10,7 @@ import "./Carousel.css";
 
 function Carousel() {
   return (
-    <div id="myCarousel" className="carousel slide" data-ride="carousel">
+        <div id="myCarousel" className="carousel slide" data-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={main1} className="d-block w-100" alt="Slide 1" />

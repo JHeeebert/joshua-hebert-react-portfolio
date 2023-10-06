@@ -4,7 +4,7 @@
   align-items: center;
   text-align: center;
   margin: 20px auto;
-  max-width: 800px;
+  max-width: 100%;
   padding: 20px;
   background-color: #34495e;
   border-radius: 20px;
@@ -39,8 +39,8 @@
 
 .buttons button,
 .resume-link {
-  margin: 10px;
-  padding: 10px;
+  margin: 15px;
+  padding: 15px;
   border-radius: 5px;
   background-color: #2980b9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -48,7 +48,7 @@
   color: white;
   font-size: 1em;
   font-weight: 300;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out,
     box-shadow 0.3s ease-in-out;

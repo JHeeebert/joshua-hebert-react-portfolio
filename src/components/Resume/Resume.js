@@ -18,6 +18,11 @@ import { ReactComponent as BootStrapIcon } from "../../assets/bootstrapIcon.svg"
 import { ReactComponent as ReduxIcon } from "../../assets/reduxIcon.svg";
 import { ReactComponent as HerokuIcon } from "../../assets/herokuIcon.svg";
 
+import DataBaseIcon from "../../assets/databaseIcon.svg";
+import ReactBtnIcon from "../../assets/reactBtnIcon.svg";
+import MiscIcon from "../../assets/miscIcon.svg";
+import PDFIcon from "../../assets/pdfIcon.svg";
+
 // IMPORT FOR ANIMATE.CSS //
 import "animate.css";
 
@@ -71,49 +76,97 @@ const Resume = () => {
   const frontendSkills = [
     {
       name: "HTML5",
-      icon: <a href="https://html.com/" target="_blank" rel="noopener noreferrer"><HTMLIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a href="https://html.com/" target="_blank" rel="noopener noreferrer">
+          <HTMLIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "HTML5 Icon",
       message: "HTML5 is a markup language built for the web.",
     },
 
     {
       name: "CSS3",
-      icon: <a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer"><CSSIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://css-tricks.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <CSSIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "CSS3 Icon",
       message:
         "CSS3 is a powerful styling language that allows for easy styling of web pages.",
     },
     {
       name: "JavaScript",
-      icon: <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer"><JavaScriptIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://www.javascript.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <JavaScriptIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "JavaScript Icon",
       message:
         "JavaScript is a powerful scripting language that allows easy scripting of web pages.",
     },
     {
       name: "React.js",
-      icon: <a href="https://react.dev/" target="_blank" rel="noopener noreferrer"><ReactIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
+          <ReactIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "React.js Icon",
       message:
         "React.js is a JavaScript library that allows developers to build user interfaces.",
     },
     {
       name: "Tailwind CSS",
-      icon: <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"><TailwindCssIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://tailwindcss.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <TailwindCssIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "Tailwind CSS Icon",
       message:
         "Tailwind CSS is a CSS framework that allows developers to build web pages quickly and easily.",
     },
     {
       name: "Bootstrap",
-      icon: <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><BootStrapIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://getbootstrap.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BootStrapIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "Bootstrap Icon",
       message:
         "Bootstrap allows developers to build web pages quickly and easily.",
     },
     {
       name: "Redux",
-      icon: <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer"><ReduxIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://redux.js.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ReduxIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "Redux Icon",
       message:
         "Redux is a JavaScript library that allows developers to manage the state of their application.",
@@ -124,37 +177,77 @@ const Resume = () => {
   const backendSkills = [
     {
       name: "Node.js",
-      icon: <a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer"><NodeJSIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://nodejs.org/en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <NodeJSIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "Node.js Icon",
       message:
         "Node.js is a JavaScript runtime environment that allows developers to build web servers.",
     },
     {
       name: "Express.js",
-      icon: <a href="http://expressjs.com/" target="_blank" rel="noopener noreferrer"><ExpressJSIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="http://expressjs.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ExpressJSIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "Express.js Icon",
       message: "Express.js allows developers to build web servers.",
     },
     {
       name: "MongoDB",
-      icon: <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer"><MongoDBIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://www.mongodb.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MongoDBIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "MongoDB Icon",
       message:
         "MongoDB is a NoSQL database that allows developers to store data.",
     },
     {
       name: "GraphQL",
-      icon:<a href="https://graphql.org/" target="_blank" rel="noopener noreferrer"><GraphQLIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://graphql.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GraphQLIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "GraphQL Icon",
       message:
-      "GraphQL is a query language for APIs that allows developers to build APIs.",
+        "GraphQL is a query language for APIs that allows developers to build APIs.",
     },
     {
       name: "MySQL",
-      icon: <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer"><MySqlIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://www.mysql.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MySqlIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "MySQL Icon",
       message:
-      "MySQL is a relational database that allows developers to store data.",
+        "MySQL is a relational database that allows developers to store data.",
     },
   ];
   // MISCELLANEOUS SKILLS Entered Here //
@@ -162,25 +255,59 @@ const Resume = () => {
   const MiscellaneousSkills = [
     {
       name: "vsCode",
-      icon: <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer"><VsCodeIcon style={{ width: "50px", height: "50px" }}className="animate__animated animate__fadeIn" /></a>,
+      icon: (
+        <a
+          href="https://code.visualstudio.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <VsCodeIcon
+            style={{ width: "50px", height: "50px" }}
+            className="animate__animated animate__fadeIn"
+          />
+        </a>
+      ),
       iconAlt: "vsCode Icon",
-      message: "vsCode is a code editor that allows developers to code and provides a variety of useful features.",
+      message:
+        "vsCode is a code editor that allows developers to code and provides a variety of useful features.",
     },
     {
       name: "GitHub",
-      icon: <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <GitHubIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "GitHub Icon",
-      message: "GitHub is a code repository that allows developers to share code with others and contribute to open source projects.",
+      message:
+        "GitHub is a code repository that allows developers to share code with others and contribute to open source projects.",
     },
     {
       name: "NPM",
-      icon: <a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer"><NpmIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://www.npmjs.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <NpmIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "NPM Icon",
-      message: "NPM is a package manager that allows developers to share code with others and contribute to open source projects.",
+      message:
+        "NPM is a package manager that allows developers to share code with others and contribute to open source projects.",
     },
     {
       name: "Heroku",
-      icon: <a href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer"><HerokuIcon style={{ width: "50px", height: "50px" }} /></a>,
+      icon: (
+        <a
+          href="https://www.heroku.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <HerokuIcon style={{ width: "50px", height: "50px" }} />
+        </a>
+      ),
       iconAlt: "Heroku Icon",
       message:
         "Heroku is a cloud platform that allows developers to deploy their web applications.",
@@ -200,19 +327,43 @@ const Resume = () => {
     <section className="resume">
       <h2> Resume & Skills </h2>
       <div className="buttons">
-        <button onClick={() => scrollToSection("frontendSkills")}>
-          Frontend 🗳️
+        <button onClick={() => scrollToSection("frontendSkills")}>FRONT-END
+          <img
+            src={ReactBtnIcon}
+            alt="REACT JS"
+            style={{ width: "50px", height: "50px" }}
+          />
+
         </button>
-        <button onClick={() => scrollToSection("backendSkills")}>
-          Backend 🗳️
+        <button onClick={() => scrollToSection("backendSkills")}>BACK-END
+          <img
+            src={DataBaseIcon}
+            alt="database"
+            style={{ width: "50px", height: "50px" }}
+          />
         </button>
-        <button onClick={() => scrollToSection("MiscellaneousSkills")}>
-          Miscellaneous 🗳️
+        <button onClick={() => scrollToSection("MiscellaneousSkills")}>MISC.
+          <img
+            src={MiscIcon}
+            alt="miscellaneous"
+            style={{ width: "50px", height: "50px" }}
+          />
         </button>
-        <button onClick={handleDownloadResume}>Download Resume (📑PDF)</button>
+        <button onClick={handleDownloadResume}>
+          Resume
+          <img
+            src={PDFIcon}
+            alt="PDF"
+            style={{ width: "50px", height: "50px" }}
+          />
+        </button>
       </div>
       <div id="frontendSkills" className="skill-card">
-        <h3>Frontend</h3>
+        <img
+          src={ReactBtnIcon}
+          alt="REACT JS"
+          style={{ width: "75px", height: "75px" }}
+        />
         <ul>
           {frontendSkills.map((skill, index) => (
             <li key={index} className="tooltip-container">
@@ -223,7 +374,11 @@ const Resume = () => {
         </ul>
       </div>
       <div id="backendSkills" className="skill-card">
-        <h3>Backend</h3>
+        <img
+          src={DataBaseIcon}
+          alt="database"
+          style={{ width: "75px", height: "65px" }}
+        />
         <ul>
           {backendSkills.map((skill, index) => (
             <li key={index} className="tooltip-container">
@@ -234,7 +389,11 @@ const Resume = () => {
         </ul>
       </div>
       <div id="MiscellaneousSkills" className="skill-card">
-        <h3>Miscellaneous</h3>
+        <img
+          src={MiscIcon}
+          alt="database"
+          style={{ width: "75px", height: "65px" }}
+        />
         <ul>
           {MiscellaneousSkills.map((skill, index) => (
             <li key={index} className="tooltip-container">
