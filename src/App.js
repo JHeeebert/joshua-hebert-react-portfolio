@@ -17,12 +17,12 @@ const App = () => {
   };
   return (
     <div>
-      <Carousel /> {/* Display the Carousel */}
+      
       <Header
         selectedSection={selectedSection}
         handleSectionChange={handleSectionChange}
       />
-      
+      <Carousel /> {/* Display the Carousel */}
       {/* Rest of the components */}
       {selectedSection === "About Me" && <About />}
       {selectedSection === "Contact" && <Contact />}
