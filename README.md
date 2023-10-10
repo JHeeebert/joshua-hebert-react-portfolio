@@ -46,15 +46,15 @@ From the moment you land on the main page, you'll be greeted with a user-friendl
 
  **Main Page** <br>
  ![Main Page](./screenshots/mainPage.png)
- **Portfolio Image** <br>
- ![Portfolio](./screenshots/portfolioImage.png)
+ **About Me** <br>
+ ![About Me](./screenshots/portfolioImage.png)
  **Portfolio Image2** <br>
  ![Portfolio2](./screenshots/portfolioImage2.png)
  **Contact** <br>
  ![Contact](./screenshots/contactImage.png)
- **Contact** <br>
- ![Resume](./screenshots/resumeImage.png)
  **Resume** <br>
+ ![Resume](./screenshots/resumeImage.png)
+ **Resume Hover** <br>
  ![Resume Hover](./screenshots/resumeHoverImage.png)
  **Resume Hover** <br>
  ![SweetAlert Form Submit](./screenshots/sweetAlertFormSubmit.png)

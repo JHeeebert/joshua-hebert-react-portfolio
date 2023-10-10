@@ -1,3 +1,9 @@
+:root {
+    --main-bg: #34495e;
+    --form-bg: #486480;
+    --accent: #2980b9;
+}
+
 section.contact {
     display: flex;
     flex-direction: column;
@@ -6,120 +12,65 @@ section.contact {
     margin: 20px auto;
     max-width: 75%;
     padding: 20px;
-    background-color: #34495e;
+    background-color: var(--main-bg);
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     color: rgb(157, 148, 148);
     text-decoration: none;
     transition: all 0.3s ease;
-    cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
 
-section.contact form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 100%;
-    padding: 20px;
-    background-color: #486480;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    color: rgb(157, 148, 148);
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-}
-
-section.contact h2{
-    color: rgb(157, 148, 148);
-    font-weight: bold;
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-    text-align: center;
-}
-
-section.contact form input[type=text] {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 100%;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    color: rgb(0, 0, 0);
-    font-weight: 100;
-    font-size: 1.5;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-}
-
-section.contact form input[type=text]:focus {
-    background-color: #054657;
-    color: white;
-}
-
-section.contact form input[type=email] {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 100%;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    color: rgb(0, 0, 0);
-    font-weight: 100;
-    font-size: 1.5;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-}
-
-section.contact form input[type=email]:focus {
-    background-color: #054657;
-    color: white;
-}
-
+section.contact form,
+section.contact form input[type="text"],
+section.contact h2,
+section.contact form input[type="email"],
 section.contact form textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 20px auto;
-    max-width: 100%;
-    padding: 20px;
-    border-radius: 20px;
+    margin: 25px auto;
+    max-width: 75%;
+    padding: 25px;
+    border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    color: rgb(0, 0, 0);
+    color: rgb(226, 226, 226);
     font-weight: 100;
     font-size: 1.5;
     text-decoration: none;
     transition: all 0.3s ease;
-    cursor: pointer;
     font-family: "Roboto", sans-serif;
+    outline: none;
+    border: none;
 }
 
-section.contact form textarea:focus {
+section.contact h2, section.contact form {
+    font-size: 1.5rem;
+    background-color: var(--form-bg);
+}
+
+section.contact form textarea:focus,
+section.contact form button,
+section.contact form input[type="email"]:focus,
+section.contact form input[type="text"]:focus {
     background-color: #054657;
     color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+
 }
 
 section.contact form button {
     padding: 10px 20px;
-    background-color: #2980b9;
-    color: white;
     border: none;
     cursor: pointer;
+    border-radius: 30px;
+    font-size: 1.15rem;
+    font-weight: 500;
 }
 
 section.contact form button:hover {

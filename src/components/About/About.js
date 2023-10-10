@@ -100,21 +100,16 @@ const AboutMe = () => {
                     to drive meaningful change. From the elegant architecture of a
                     well-designed website to the intricacies of back-end functionality,
                     every facet of development represents an opportunity to innovate and
-                    create impactful solutions. In my constant quest for growth,{" "}
+                    create impactful solutions. 
                     </p>
                     <p>
                     <strong>
-                        I am not just a developer; I am an innovator, a problem solver, and
-                        a lifelong learner.
+                    In my constant quest for growth, I am not just a developer; I am an innovator, a problem solver, and
+                    a lifelong learner.
                     </strong>{" "}
                     The dynamism of the tech industry fuels my drive to continually evolve
                     and adapt, ensuring that I stay ahead of the curve.
                 </p>
-                <p>
-                <strong>
-                        I am currently seeking a role as a Full Stack Web Developer.
-                    </strong>{" "}
-                    </p>
                 <div className="interests">
                     <h3>Interests</h3>
                     <ul>

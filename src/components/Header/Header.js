@@ -14,7 +14,7 @@ const Header = ({ selectedSection, handleSectionChange }) => {
                         <img
                             src={WavingIcon}
                             alt="Waving Hand"
-                            style={{ width: "60px", height: "60px" }}
+                            style={{ width: "50px", height: "50px" }}
                         />{" "}
                         I'm 
                     </p>

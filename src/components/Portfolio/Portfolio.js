@@ -35,7 +35,6 @@ const Portfolio = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            className="app-card"
                             src={mixMuse}
                             alt="Profile"
                             loading="lazy"
@@ -67,7 +66,6 @@ const Portfolio = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            className="app-card"
                             src={marvelFlicks}
                             alt="Profile"
                             loading="lazy"
@@ -99,7 +97,6 @@ const Portfolio = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            className="app-card"
                             src={carBidz}
                             alt="Profile"
                             loading="lazy"
@@ -131,7 +128,6 @@ const Portfolio = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            className="app-card"
                             src={weatherApp}
                             alt="Profile"
                             loading="lazy"
@@ -157,8 +153,9 @@ const Portfolio = () => {
                         alt="Twitter"
                         style={{ width: "75px", height: "75px" }}
                     />
+                    </div>
+                    <div>
                     <img
-                        className="app-card"
                         src={socialMediaApi}
                         alt="Profile"
                         loading="lazy"
@@ -188,7 +185,6 @@ const Portfolio = () => {
                             rel="noopener noreferrer"
                         >
                             <img
-                                className="app-card"
                                 src={pwaTextEditor}
                                 alt="Profile"
                                 loading="lazy"
