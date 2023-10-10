@@ -38,8 +38,7 @@ const Contact = () => {
     };
     return (
         <section className="contact" id="contact">
-            <h2>If you have any work you need done please feel free feel to conatct me!<br />
-            Or just leave some advice, feedback or words of encouragement!</h2> 
+            <h2>If you have any work you need done please feel free to contact me!!</h2> 
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
