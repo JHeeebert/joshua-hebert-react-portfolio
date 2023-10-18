@@ -15,7 +15,7 @@ section.contact {
     background-color: var(--main-bg);
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    color: rgb(157, 148, 148);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: all 0.3s ease;
     font-family: "Roboto", sans-serif;

@@ -48,6 +48,7 @@ const Contact = () => {
                         value={name}
                         onChange={handleNameChange}
                         required
+                        placeholder="Enter your name"
                     />
                 </div>
                 <div>
@@ -58,7 +59,9 @@ const Contact = () => {
                         value={email}
                         onChange={handleEmailChange}
                         required
-                    />
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                        placeholder="Enter your email"
+                        />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
@@ -68,6 +71,9 @@ const Contact = () => {
                         value={message}
                         onChange={handleMessageChange}
                         required
+                        rows="5"
+                        cols="50"
+                        placeholder="Enter your message"
                     ></textarea>
                 </div>
                 <button type="submit">Submit</button>
