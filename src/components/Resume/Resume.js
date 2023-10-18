@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./Resume.css";
 // IMPORTS FOR OUR SKILLS SVGS //
 import { ReactComponent as HTMLIcon } from "../../assets/htmlIcon.svg";
