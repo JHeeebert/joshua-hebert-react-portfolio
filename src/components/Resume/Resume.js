@@ -30,7 +30,7 @@ import "animate.css";
 import MySwal from "sweetalert2";
 
 // IMPORT FOR RESUME PDF //
-import resume from "../../assets/JoshuaHebertResume2023.pdf";
+import resume from "../../assets/Joshua-Hebert-Web-Dev-Resume.pdf";
 
 const handleDownloadResume = () => {
   MySwal.fire({
