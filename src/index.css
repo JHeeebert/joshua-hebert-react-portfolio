@@ -1,0 +1,268 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /* Default font weight */
+  line-height: 1.5;
+  /* Default line height */
+}
+
+/* Header */
+header {
+  background-color: #34495e;
+  /* Dark blue header */
+  color: rgb(157, 148, 148);
+  padding: 20px;
+  text-align: center;
+
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  footer {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: auto;
+  }
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: #fbfbfb;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+nav button.active {
+  font-weight: bold;
+  color: #13b8e1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Add a little shadow */
+  transition: all 0.3s ease;
+  transform: scale(1.2);
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+section {
+  padding: 20px;
+  background-color: #34495e;
+  /* Slightly lighter background for sections */
+  margin: 10px;
+  border-radius: 10px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ecf0f1;
+  /* Light text color */
+  text-align: center;
+  /* Center text */
+  margin-top: 0;
+  margin-bottom: 20px;
+  /* Add some space between paragraphs */
+  line-height: 1.5;
+  /* Add some space between paragraphs */
+  font-weight: 300;
+  /* Light
+  font-weight */
+  letter-spacing: 0.1em;
+}
+
+section div {
+  margin-bottom: 20px;
+}
+
+
+
+section form div {
+  margin-bottom: 10px;
+}
+
+section form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ecf0f1;
+  /* Light text color */
+  text-align: left;
+  /* Center text */
+  font-weight: 300;
+  /* Light
+  font-weight */
+  letter-spacing: 0.1em;
+  /* Add some letter spacing */
+}
+
+section form input,
+section form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  resize: none;
+  background-color: rgb(169, 164, 164);
+}
+
+section form button {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  resize: none;
+}
+
+section form button:hover {
+  background-color: #3498db;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Add a little shadow */
+  transform: scale(1.2);
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+.swal2-popup {
+  font-size: 1.6rem !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /* Default font weight */
+  line-height: 1.5;
+  /* Default line height */
+  text-decoration: none;
+  /* Remove default text decoration */
+  list-style: none;
+  /* Remove default list style */
+}
+
+.swal2-popup.swal2-title {
+  font-size: 1.6rem !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /* Default font weight */
+  line-height: 1.5;
+  /* Default line height */
+  text-decoration: none;
+  /* Remove default text decoration */
+  list-style: none;
+  /* Remove default list style */
+}
+
+.swal2-popup.swal2-text {
+  font-size: 1.6rem !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /* Default font weight */
+  line-height: 1.5;
+  /* Default line height */
+  text-decoration: none;
+  /* Remove default text decoration */
+  list-style: none;
+  /* Remove default list style */
+}
+/* Mobile Styles */
+
+@media only screen and (max-width: 767px) {
+
+  /* Adjustments for small screens */
+  .buttons button {
+    width: 100%;
+  }
+
+  .skill-card ul li svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .resume h2 {
+    text-align: center;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /* Adjustments for tablets */
+  .buttons button {
+    width: 50%;
+  }
+
+  .skill-card ul li svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 992px) {
+
+  /* Styles for desktop screens */
+  .buttons button {
+    width: auto;
+  }
+
+  .skill-card ul li svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Cell Phone Styles */
+@media only screen and (max-width: 767px) {
+
+  /* Styles for cell phones */
+  .buttons button {
+    width: 100%;
+  }
+
+  .skill-card ul li svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 50%;
+    background-color: #ecf0f1;
+  }
+
+  .resume h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}

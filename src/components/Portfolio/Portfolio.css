@@ -1,0 +1,104 @@
+section.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 75%;
+  background-color: #34495e;
+  /* Dark blue background color */
+  color: (157, 148, 148);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  /* Shadow effect */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center horizontally */
+  justify-content: center;
+  /* Center vertically */
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+section.portfolio h2 {
+  color: rgb(157, 148, 148);
+  font-weight: bold;
+}
+
+section.portfolio h3 {
+  color: #24bae0;
+}
+
+
+section.portfolio h3:hover {
+  color: rgb(157, 148, 148);
+  transform: translate3d(0, -2px, 0);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: content '\e8c0';
+  font-family: 'Material Icons';
+  font-weight: normal;
+  text-decoration: none;
+
+
+
+}
+
+section.portfolio .app-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #054657;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+section.portfolio img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 750px;
+  margin-bottom: 25px;
+}
+
+section.portfolio img:hover {
+  transform: translate3d(0, -10px, 0);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  cursor: grabbing; 
+}
+
+section.portfolio .app-card h3 {
+  margin-bottom: 5px;
+}
+
+section.portfolio a {
+  display: block;
+  margin-bottom: 5px;
+  color: #fbfbfb;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+
+section.portfolio a:hover {
+  text-decoration: underline;
+  color: #24bae0;
+  transform: translate3d(0, -2px, 0);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: content '\e8c0';
+  font-family: 'Material Icons';
+  font-weight: normal;
+  text-decoration: none;
+}

@@ -1,0 +1,192 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 75%;
+  padding: 20px;
+  background-color: #34495e;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: rgb(157, 148, 148);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.resume h2 {
+  color: rgb(157, 148, 148);
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.resume .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(157, 148, 148);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0% 10% 0% 10%;
+  line-height: 1.5;
+}
+
+.buttons button,
+.resume-link {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #2980b9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  display: inline-block;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.buttons button:hover,
+.resume-link:hover {
+  background-color: #3498db;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* Add a little shadow */
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.resume .skill-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume .skill-card h3 {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgb(157, 148, 148);
+  text-align: center;
+}
+
+.resume .skill-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(157, 148, 148);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0% 10% 0% 10%;
+  line-height: 1.5;
+}
+
+.resume .skill-card ul li {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2980b9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.skill-card ul li svg path {
+  stroke-dasharray: 1000;
+  /* this is the length of the path */
+  stroke-dashoffset: 1000;
+  /* this is the length of the path */
+  animation: dash 1s ease-in-out forwards;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  transition-delay: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+}
+
+.tooltip-container:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  transition-delay: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 3;
+  }
+}
